@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Flip Pricing Table</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<meta name="viewport" content="width=device-width">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  	<div class="pricing-container">
+		<div class="pricing-switcher">
+			<p class="fieldset">
+				<input type="radio" name="duration-1" value="monthly" id="monthly-1" checked>
+				<label for="monthly-1">LT</label>
+				<input type="radio" name="duration-1" value="yearly" id="yearly-1">
+				<label for="yearly-1">EN</label>
+				<span class="switch"></span>
+			</p>
+		</div>
+		<ul class="pricing-list bounce-invert">
+			<li>
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<h2>JAUKI ŠVENTĖ</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value">320</span>
+								<span class="duration">5h </span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>5h</em> Filmavimas</li>
+								<li>1 Kamera, dronas</li>
+								<li>Kokybiškas garso įrašymas </li>
+								<li>7-10min filmas</li>
+								<li>Kitos dienos 30sek anonsas</li>
+								<li><em>_</em></li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<h2>Basic</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">320</span>
+								<span class="duration">yr</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>5h</em> Filmavimas</li>
+								<li>1 Kamera, dronas</li>
+								<li>Kokybiškas garso įrašymas </li>
+								<li>7-10min filmas</li>
+								<li>Kitos dienos 30sek anonsas</li>
+								<li><em>_</em></li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+			<li class="exclusive">
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<h2>Fiesta</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value">840</span>
+								<span class="duration">14h</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em> iki 14h</em> Filmavimas</li>
+								<li>2 Kameros, dronas</li>
+								<li>Kokybiškas garso įrašymas </li>
+								<li>30-40min filmas + klipas</li>
+								<li>Kitos dienos 30sek anonsas</li>
+								<li>Graviruota USB laikmena</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<h2>FIESTA</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value">840</span>
+								<span class="duration">14h</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em> iki 14h</em> Filmavimas</li>
+								<li>2 Kameros, dronas</li>
+								<li>Kokybiškas garso įrašymas </li>
+								<li>30-40min filmas + klipas</li>
+								<li>Kitos dienos 30sek anonsas</li>
+								<li>Graviruota USB laikmena</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="pricing-wrapper" style="display: noel">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<h2>Geras vakarėlis</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value">620</span>
+								<span class="duration">10h</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>10h</em> filmavimo ne vėliau iki 22h</li>
+								<li>1 Kamera, dronas</li>
+								<li>Kokybiškas garso įrašymas </li>
+								<li>15-25min filmas + klipas</li>
+								<li>Kitos dienos 30sek anonsas</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<h2>Pro</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">620</span>
+								<span class="duration">10h</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>10h</em> filmavimo ne vėliau iki 22h</li>
+								<li>1 Kamera, dronas</li>
+								<li>Kokybiškas garso įrašymas </li>
+								<li>15-25min filmas + klipas</li>
+								<li>Kitos dienos 30sek anonsas</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
